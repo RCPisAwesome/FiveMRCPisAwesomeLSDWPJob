@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Treatment Fishing Mini Game By RCPisAwesome</title>
+  <link href = "https://fonts.googleapis.com/css?family=Kaushan+Script" rel = "stylesheet">
+  <link rel="stylesheet" href="./Client.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="notificationlist"></div>
+  <div id="minigame">
+    <div id="scoreboard" class="netbackground">
+      <div><p>Progress: </p><p id="progress">0</p><p>%</p></div>
+      <div><p>Points: </p><p id="points">0</p></div>
+    </div>
+
+    <div id="options">
+      <img id="pause" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/pause-button_23f8-fe0f.png" alt=""/>
+      <img id="settingsicon" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/gear_2699-fe0f.png" alt=""/>
+      <div id="settings">
+        <p>move mode:</p>
+        <img id="movemode" src="https://www.rcpisawesome.co.uk/dev/FiveMRCPRecoil/movemode.png" alt=""/>
+        <div id="progressup">
+          <p>progress up volume:</p>
+          <input class="sliderinput"  type="number" min="0" max="100" step="1" value="10"/>
+          <input class="slider"       type="range"  min="0" max="100" step="1" value="10"/>
+        </div>
+        <div id="progressdown">
+          <p>progress down volume:</p>
+          <input class="sliderinput"  type="number" min="0" max="100" step="1" value="10"/>
+          <input class="slider"       type="range"  min="0" max="100" step="1" value="10"/>
+        </div>
+        <div id="success">
+          <p>success volume:</p>
+          <input class="sliderinput"  type="number" min="0" max="100" step="1" value="10"/>
+          <input class="slider"       type="range"  min="0" max="100" step="1" value="10"/>
+        </div>
+      </div>
+    </div>
+
+    <div id="pool">
+      <canvas id="bubbles"></canvas>
+      <div id="net" class="netbackground"></div>
+      <div id="item">
+        <div id="progressbar"><span></span></div>
+        <img id="itemimg" src="" alt="">
+      </div>
+    </div>
+
+  </div>
+  <script src="./Client.js"></script>
+</body>
+</html>

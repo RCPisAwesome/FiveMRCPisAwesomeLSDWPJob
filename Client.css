@@ -1,0 +1,314 @@
+body {
+  user-select: none;
+}
+@keyframes wave {
+  0% {background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;}
+  20% {background-position: 51% 48%, 51% 48%, 53% 52%, 53% 52%, 48% 47%, 48% 47%;}
+  40% {background-position: 49% 51%, 49% 51%, 48% 51%, 48% 51%, 54% 50%, 54% 50%;}
+  60% {background-position: 53% 54%, 53% 54%, 46% 54%, 46% 54%, 53% 46%, 53% 46%;}
+  80% {background-position: 51% 52%, 51% 52%, 49% 49%, 49% 49%, 49% 48%, 49% 48%;}
+  0% {background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;}
+}
+#minigame {
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+#pool {
+  opacity: 0.9;
+  width: 200px;
+  height: 350px;
+  border-radius: 25px;
+  border: 3px groove black;
+  background:
+  radial-gradient(15px 5px at 25% 0, transparent 0%, transparent 80%, #b8e2ff 80%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  radial-gradient(15px 5px at 75% 100%, transparent 0%, transparent 80%, #b8e2ff 80%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  radial-gradient(10px 3px at 25% 0, transparent 0%, transparent 70%, #b8e2ff 70%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  radial-gradient(10px 3px at 75% 100%, transparent 0%, transparent 70%, #b8e2ff 70%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  radial-gradient(30px 8px at 25% 0, transparent 0%, transparent 55%, #b8e2ff 55%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  radial-gradient(30px 8px at 75% 100%, transparent 0%, transparent 55%, #b8e2ff 55%, #b8e2ff 99%, transparent 99%, transparent 100%),
+  #008bba;
+  background-size: 60px 40px, 60px 40px, 40px 24px, 40px 24px, 120px 64px, 120px 64px;
+  background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+  animation: wave 10s linear infinite;
+}
+#item {
+  z-index: 2;
+  position: absolute;
+  top: calc(100% - 70px);
+  left: 5%;
+  width: 50px;
+  height: 50px;
+}
+#itemimg {
+  height: 50px;
+  width: 50px;
+}
+#net {
+  opacity: 0.9;
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 100px);
+  left: 3%;
+  width: 60px;
+  height: 80px;
+}
+
+.netbackground {
+  border: 3px groove blue;
+  border-radius: 25px;
+  background-image: linear-gradient(white 1px, transparent 1px),
+  linear-gradient(90deg, white 1px, transparent 1px),
+  linear-gradient(rgba(255,255,255,0.7) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,0.7) 1px, transparent 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position:-1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+#bubbles {
+  z-index: 4;
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  width: 90%;
+  height: 82%;
+}
+
+#scoreboard {
+  text-align: center;
+}
+
+p, h1, input {
+  display: inline;
+  color: #E2B71B;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1vw;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow:
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+h1 {
+  display: block;
+  text-transform: uppercase;
+  /*color:rgb(35,235,210);*/
+  color: rgb(85,240,85);
+}
+img {
+  display: inline;
+  height: 120px;
+  width: 120px;
+}
+
+#progressbar {
+  height: 10px;
+  width: 100%;
+  position: relative;
+  background: rgb(85,85,85);
+  border-radius: 25px;
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+#progressbar > span {
+  height: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  background-color: rgb(85,240,85);
+}
+#progressbar > span:after{
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(-45deg,
+    rgba(255, 255, 255, 0.2) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%, transparent 75%,
+    transparent
+  );
+  background-size: 10px 10px;
+  animation: move 2s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes showthis {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes hidethis {
+  from {
+    opacity: 1;
+    scale: 1;
+  }
+  to {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+.breakitemimagecontainer {
+  position: relative;
+  height: 120px;
+}
+
+.breakitemimagecontainer > canvas {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+
+input {
+  border-radius: 25px;
+  background-color: cyan;
+}
+input::-webkit-slider-runnable-track {
+  background-color: crimson;
+  border-radius: 25px;
+  height: 15px;
+}
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 100%;
+  background-color: cyan;
+  border-radius: 25px;
+}
+input[type="number"] {
+  width: 12%;
+}
+input[type="range"] {
+  width: 90%;
+  -webkit-appearance: none;
+  display: block;
+  vertical-align: middle;
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.inputdown, .inputup {
+  position: relative;
+  background: rgb(151,66,66);
+  color: white;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 10px;
+  text-shadow:
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.0vw;
+}
+
+.inputdown:hover, .inputup:hover {
+  text-shadow:
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+  0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+  filter: contrast(200%);
+}
+
+#options > img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+#settings > img {
+  width: 24px;
+  height: 24px;
+}
+
+#settings > p, #settings > div > p {
+  margin: 2%;
+}
+
+#options {
+  margin: 2%;
+  position: absolute;
+  top: 10%;
+  left: 100%;
+}
+#settings {
+  scale: 0;
+  opacity: 0;
+  display: fixed;
+  width: 375px;
+  height: 100%;
+  overflow: hidden;
+  padding: 2%;
+}
+
+#movemode {
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+}
+
+
+
+#notificationlist {
+  width: 20%;
+  position: fixed;
+  top: 15%;
+  right: 15%;
+}
+
+.notificationbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-shrink: 1;
+  color: #ffffff;
+  background: rgb(40, 40, 40);
+  box-shadow: 0 3px 6px black;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border-style: groove dashed;
+  border-color: #E2B71B;
+  animation: shownoti 0.5s ease-out forwards;
+  overflow: hidden;
+}
+
+.notificationhide {
+  height: 0px;
+  opacity: 0;
+  scale: 0;
+  transition: all 0.5s ease-out;
+}
+
+.notificationmargin {
+  margin-right: 10%;
+}
+
+.notificationclose {
+  position: absolute;
+  right: 3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  transition: all 0.5s ease-out;
+}
+
+.notificationclose:hover {
+  color: lime;
+}
+
+@keyframes shownoti {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
