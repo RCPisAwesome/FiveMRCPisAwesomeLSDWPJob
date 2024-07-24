@@ -476,7 +476,8 @@ var playgame = false;
       if (url.includes(".")){
         itemimg.src = url;
       }else{
-        itemimg.src = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/"+ url +".png";
+        //URL can be changed here to add a prefix and suffix
+        itemimg.src = "" + url + ".png";
       }
         
       item.name = newitemname;
