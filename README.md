@@ -1,6 +1,7 @@
-# LSDWP Job For NoPixel By RCPisAwesome
+# LSDWP Job By RCPisAwesome
 
 ## LSDWP Stands for the Los Santos Department of Water and Power
+## This is a proof of concept, not a release. They may be insecurities.
 
 ## Screenshots:
 <a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/1.jpg" target="_blank">**minigame**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/2.jpg" target="_blank">**minigame after move mode**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/3.jpg" target="_blank">**map markers**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/4.jpg" target="_blank">**Vinewood with Vehicle Bays Filled**</a>
@@ -10,21 +11,6 @@
 <a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/5.jpg" target="_blank">**Vinewood**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/6.jpg" target="_blank">**Zancudo Building**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/7.jpg" target="_blank">**Zancudo**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/8.jpg" target="_blank">**Rancho**</a>
 :---:|:---:|:---:|:---:
 <a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/5.jpg" target="_blank"><img alt="FiveMRCPisAwesomeLSDWPJob" src="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/5.jpg"></a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/6.jpg" target="_blank"><img alt="FiveMRCPisAwesomeLSDWPJob" src="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/6.jpg"></a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/7.jpg" target="_blank"><img alt="FiveMRCPisAwesomeLSDWPJob" src="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/7.jpg"></a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/8.jpg" target="_blank"><img alt="FiveMRCPisAwesomeLSDWPJob" src="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/8.jpg"></a>
-
-## Video:
-## COMING SOON
-
-## Roleplay Potential:
-If this job was added to NoPixel it would create a brand new way of players getting rewarded for playing a fun mini game.
-It combines all the existing jobs, both illegal and legal, by giving the potential to get any items you would get from those jobs.
-It also takes the players all over the map in a fun and unique way so they can get familiar with the map.
-Players may have to go to pools in private residences that are owned by other players, this would give them the ability to roleplay their job fully by asking to go see their pool and maybe even charge them for the work for a little extra money. Equally the owner could refuse and the employee could try to convince them to agree, there's many avenues the roleplay could turn. They may also encounter other players while on other jobs whom they can also roleplay with.
-
-Given the opportunity of being a developer, I would also like to take this job one step further, by playing a character who runs the LSDWP. I would be managing the 3 LSDWP sites in Vinewood, Rancho and Zancudo. I would have the duty of assigning jobs to employees instead of it being a fully open job as the job could be very overpowered if farmed, given the items you can potentially receive. Alternatively the items and pay you're able to receive could depend on if your a whitelisted employee of the LSDWP or not. Some other duties could be getting the vehicles repaired at mechanic shops, there would be a shared garage similar to that of the PD on NoPixel. This could also allow players to buy and use their own LSWDP vehicles so they could upgrade and personalise them.
-
-On top of all the aforementioned points there is much more potential with the illegal side of this job. Players could sell me the items they get at a slightly better price than the existing sale spot, commonly referred to as the fence. With a little modification to the code, it would be possible to give players specific job locations and receive specific items from them. This would be a good method of distributing and/or selling illegal weapons and items as the job would act as a good cover. To give this risk it would alert the cops if a local sees, or would see, that there is someone fishing up these items. The player would have to risk fishing up all the items in time before the cops show up otherwise the items not fished out will be able to be given to them. This job could also be a way of getting gun part items which then could be sold to me and I could craft them into functioning weapons, without the employees knowledge of course. These weapons could be ones that are unique to my crafting spot, which could give a trail for the cops if I was to be investigated. I could alternatively sell these gun part items to the gun crafters that already exist instead of them using materials but I think it wouldn't hurt for them to have competition. The crafting area could be in an interior linked to a door on any of the 3 LSDWP sites. It would also be nice to clean up the textures and improve each of the areas by cleaning up the rubbish, adding fences and maybe even add more buildings. I could do these changes personally.
-
-Even if I wasn't able to get anything to do with illegal item crafting it would still be a fun way of getting items that weren't already on the item list, legal or illegal. I could be used as a middleman by someone giving me items for someone else and then me assigning that person to a specific job where they would fish up those items.
 
 ## Walkthrough:
 1. The job starts at the Vinewood LSDWP building where you sign on by walking up to the NPC, you are given one of two types of vehicle.
@@ -42,17 +28,17 @@ Even if I wasn't able to get anything to do with illegal item crafting it would 
 - Release it to let the net accelerate downwards.
 - The net will bounce off the bottom of the pool, the more downward acceration built up, the harder the net will bounce off.
 - You can lessen and cancel out the bounce by holding the left mouse button.
-- You can use the commands /dwppause and /dwpplay to pause and resume the minigame.
+- You can use the commands ```/dwppause``` to pause and ```/dwpplay``` to resume the minigame.
 - You can also pause using the pause button that is to the right of the points scoreboard.
 - Clicking the gear toggles the settings menu.
 - In the settings menu there is a toggle for move mode which lets you move the minigame and the notification list around the screen.
 - There are also volume sliders for each of the sounds.
 
-## Configuration for NoPixel:
-The script by default is a standalone script but it should be very easy to integrate with NoPixel's system. The spots are marked with comments to replace the sections that need replacing. I would be more than happy to fully integrate it personally given the opportunity.
+## Configuration:
+The script by default is a standalone script but it should be very easy to integrate. The spots are marked with comments to replace the sections that need replacing.
 - Main loop for signing on replaced by targeting and phone code.
 - Inventory item notifications replaced by the giving of the items.
-- Replace existing item names in item list in the javascript file with the real names, at current they are just guesses.
+- Replace existing item names in item list in the JavaScript file with the real names, at current they are just guesses.
 - Ability to abandon the job.
 - Optional:
   - Payment in cash or to the bank for completing the job.
@@ -62,27 +48,27 @@ The script by default is a standalone script but it should be very easy to integ
   - Some kind of displayable document to show that the employee is in fact working for LSDWP.
 
 ## Configuration of Client.js:
-- raritypercentages: The percentage chances of getting items of that rarity, totalling 100. Numbers are in order of common to ultra rare.
-- illegalitypercentages: The percentage chance of the item of that rarity being an illegal one, the remainder being the legal chance. Numbers are in order of common to ultra rare.
-- basepointamount: the number of points at the start of minigame before the distance points are added.
+- ```raritypercentages```: The percentage chances of getting items of that rarity, totalling 100. Numbers are in order of common to ultra rare.
+- ```illegalitypercentages```: The percentage chance of the item of that rarity being an illegal one, the remainder being the legal chance. Numbers are in order of common to ultra rare.
+- ```basepointamount```: the number of points at the start of minigame before the distance points are added.
 - The net and progress bar are built from classes, their changeable properties are in each class constructor:
-  - Net: bounceamount - The amount of bounce the net changes by each time it hits the bottom.
-  - Net: accelerationamount - The amount the net's acceration added or subtracted while the left mouse button is or isn't held.
-  - ProgressBar: fillamount - The amount the bar fills while the net is over the item.
-  - ProgressBar: drainamount - The amount the bar drain while the net is not over the item.
+  - Net: ```bounceamount``` - The amount of bounce the net changes by each time it hits the bottom.
+  - Net: ```accelerationamount``` - The amount the net's acceration added or subtracted while the left mouse button is or isn't held.
+  - ProgressBar: ```fillamount``` - The amount the bar fills while the net is over the item.
+  - ProgressBar: ```drainamount``` - The amount the bar drain while the net is not over the item.
 - Items are first sorted by whether they are illegal or legal and then by their rarity common to ultra rare, in the table they are represented as numbers.
-- Each item requires it's name in plural form as the key and a table with a points and an image key defined within it, e.g. "tests":{"points":1, "image":"testimage"}
-  - Points is the number subtracted from the total points upon fishing out the item, can be negative to give points too
-  - Image is the partial url of a google emoji from [emojipedia](https://emojipedia.org/google/), full urls can also be used.
+- Each item requires it's name in plural form as the key and a table with a points and an image key defined within it, for example, ```"tests":{"points":1, "image":"testimage"}```.
+  - Points is the number subtracted from the total points upon fishing out the item, can be negative to give points too.
+  - Image urls can be partial if the prefix is changed.
 - An item can also have the additional keys:
-  - Location is the water types in the order they are in the job coords list.
-  - Givesitem is the how you give inventory items to the player, the amount is random between the minimum and maximum.
-  - Givesmessage is the message you want attached to the item, shown in the notification.
-  - Singular by default the singular name takes off the last letter of the name but this overrides that so that it can make sense grammatically. It can also be a negative number to take off that many letters or 0 to not change it from the default plural.
-  - Annota replaces "a" with "an" in the notification when it's a single item.
-  - Somenota replaces "a" with "some" in the notification when it's a single item.
-  - Overrideamount overrides the number shown on the notification which otherwise would use the amount from the numbers in Givesitem.
-  - Breakimage breaks up the image in the notification, this simulates the item being broken down into the items it gives.
+  - ```Location``` is the water types in the order they are in the job coords list.
+  - ```Givesitem``` is the how you give inventory items to the player, the amount is random between the minimum and maximum.
+  - ```Givesmessage``` is the message you want attached to the item, shown in the notification.
+  - ```Singular``` by default the singular name takes off the last letter of the name but this overrides that so that it can make sense grammatically. It can also be a negative number to take off that many letters or 0 to not change it from the default plural.
+  - ```Annota``` replaces "a" with "an" in the notification when it's a single item.
+  - ```Somenota``` replaces "a" with "some" in the notification when it's a single item.
+  - ```Overrideamount``` overrides the number shown on the notification which otherwise would use the amount from the numbers in ```Givesitem```.
+  - ```Breakimage``` breaks up the image in the notification, this simulates the item being broken down into the items it gives.
 
 ## Configuration of Client.lua:
 In Client.lua the percentage chances of getting each water type is listed in the percentages table at the top, they match the order the types are in the job coords list.
@@ -138,11 +124,21 @@ It is possible to fail the job by one of the following instances occurring:
 - All dev tools are commands that start with dwp
 - Job coords are all done as integers or the for loops take too long.
 - Controls are on shown on screen for dwpnoclip and dwpdrawcustomarea
-- dwpnoclip: Move options can be switched between once per key press and while pressed depending on whether LMB is held. The ped is aligned to the rounded coordinates.
-- dwpdrawcustomarea: Used in with dwpnoclip, this is how to create new jobs to add to Job Coords List.lua.
-- dwpdrawcustomareacoordslist: Toggles the list of coordinates on the left side of the screen with using dwpdrawcustomarea.
-- dwptptojob: Get to a job quickly using the jobs water type and job number in the order they are in Job Coords List.lua.
-- dwpdrawjobs: Displays the vertices of the jobs, can use water type and job number to limit jobs shown.
-- dwpdrawminmaxarea: Used with dwpdrawjobs, displays a box showing the minimum and maximum coordinates of displayed jobs.
-- dwpdrawpointtext: Used with dwpdrawjobs, displays the coordinates of each vertice of displayed jobs.
-- dwpdrawjobtext: Used with dwpdrawjobs, displays the water type and job number of displayed jobs.
+- ```dwpnoclip```: Move options can be switched between once per key press and while pressed depending on whether LMB is held. The ped is aligned to the rounded coordinates.
+- ```dwpdrawcustomarea```: Used in with ```dwpnoclip```, this is how to create new jobs to add to Job Coords List.lua.
+- ```dwpdrawcustomareacoordslist```: Toggles the list of coordinates on the left side of the screen with using ```dwpdrawcustomarea```.
+- ```dwptptojob```: Get to a job quickly using the jobs water type and job number in the order they are in Job Coords List.lua.
+- ```dwpdrawjobs```: Displays the vertices of the jobs, can use water type and job number to limit jobs shown.
+- ```dwpdrawminmaxarea```: Used with ```dwpdrawjobs```, displays a box showing the minimum and maximum coordinates of displayed jobs.
+- ```dwpdrawpointtext```: Used with ```dwpdrawjobs```, displays the coordinates of each vertice of displayed jobs.
+- ```dwpdrawjobtext```: Used with ```dwpdrawjobs```, displays the water type and job number of displayed jobs.
+
+## Roleplay Potential:
+This job creates a brand new way of players getting rewarded for playing a fun mini game.
+It gives the potential to get any items, both illegal and legal.
+It also takes the players all over the map in a fun and unique way so they can get familiar with the map.
+Players may have to go to pools in private residences that are owned by other players, this would give them the ability to roleplay their job fully by asking to go see their pool and maybe even charge them for the work for a little extra money. Equally the owner could refuse and the employee could try to convince them to agree, there's many avenues the roleplay could turn. They may also encounter other players while on other jobs whom they can also roleplay with.
+
+This job could also be taken one step further by playing a character who runs the LSDWP and would manage the 3 LSDWP sites in Vinewood, Rancho and Zancudo. They would have the duty of assigning jobs to employees instead of it being a fully open job as the job could be very overpowered if farmed, given the items you can potentially receive. Alternatively the items and pay you're able to receive could depend on if you're an allowlisted employee of the LSDWP or not. Some other duties could be getting the vehicles repaired at mechanic shops. This could also allow players to buy and use their own LSWDP vehicles so they could upgrade and personalise them.
+
+On top of all the aforementioned points there is much more potential with the illegal side of this job. Players could sell the items to the manager at a slightly better price than the existing sale spots, commonly referred to as fences. With a little modification to the code, it would be possible to give players specific job locations and receive specific items from them. This would be a good method of distributing and/or selling illegal weapons and items as the job would act as a good cover. To give this some risk, it would alert the police when an NPC sees that there is someone fishing up these items. The player would have to risk fishing up all the items in time before the police show up otherwise the items not fished out will be able to be given to them. This job could also be a way of getting gun part items which then could be sold to the manager to craft them into functioning weapons, without the employees knowing of course. These weapons could be ones that are unique to that crafting spot, which could give a trail for the police if I was to be investigated. They could alternatively sell these gun part items to the gun crafters that already exist instead of them using materials but I think it wouldn't hurt for them to have competition. The crafting area could be in an interior linked to a door on any of the 3 LSDWP sites. The job could also be a fun way of getting items that weren't already on the item list, legal or illegal. The manager could be used as a middleman by someone giving items for someone else who is assigned to a specific job where they would fish up those items.
