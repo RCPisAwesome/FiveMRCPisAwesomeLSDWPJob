@@ -62,14 +62,14 @@ The script by default is a standalone script but it should be very easy to integ
   - Points is the number subtracted from the total points upon fishing out the item, can be negative to give points too.
   - Image urls can be partial if the prefix is changed.
 - An item can also have the additional keys:
-  - ```Location``` is the water types in the order they are in the job coords list.
-  - ```Givesitem``` is the how you give inventory items to the player, the amount is random between the minimum and maximum.
-  - ```Givesmessage``` is the message you want attached to the item, shown in the notification.
-  - ```Singular``` by default the singular name takes off the last letter of the name but this overrides that so that it can make sense grammatically. It can also be a negative number to take off that many letters or 0 to not change it from the default plural.
-  - ```Annota``` replaces "a" with "an" in the notification when it's a single item.
-  - ```Somenota``` replaces "a" with "some" in the notification when it's a single item.
-  - ```Overrideamount``` overrides the number shown on the notification which otherwise would use the amount from the numbers in ```Givesitem```.
-  - ```Breakimage``` breaks up the image in the notification, this simulates the item being broken down into the items it gives.
+  - ```location``` is the water types in the order they are in the job coords list.
+  - ```givesitem``` is the how you give inventory items to the player, the amount is random between the minimum and maximum.
+  - ```givesmessage``` is the message you want attached to the item, shown in the notification.
+  - ```singular``` by default the singular name takes off the last letter of the name but this overrides that so that it can make sense grammatically. It can also be a negative number to take off that many letters or 0 to not change it from the default plural.
+  - ```annota``` replaces "a" with "an" in the notification when it's a single item.
+  - ```somenota``` replaces "a" with "some" in the notification when it's a single item.
+  - ```overrideamount``` overrides the number shown on the notification which otherwise would use the amount from the numbers in ```Givesitem```.
+  - ```breakimage``` breaks up the image in the notification, this simulates the item being broken down into the items it gives.
 
 ## Configuration of Client.lua:
 In Client.lua the percentage chances of getting each water type is listed in the percentages table at the top, they match the order the types are in the job coords list.
