@@ -1,7 +1,8 @@
 # LSDWP Job By RCPisAwesome
 
 ## LSDWP Stands for the Los Santos Department of Water and Power
-## This is a proof of concept, not a release. They may be insecurities.
+## This is a proof of concept, not a release.
+There are insecurities because the server does not get sent any data meaning the client could exploit the giving of the items with no cooldown.
 
 ## Screenshots:
 <a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/1.jpg" target="_blank">**minigame**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/2.jpg" target="_blank">**minigame after move mode**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/3.jpg" target="_blank">**map markers**</a>|<a href="https://www.rcpisawesome.co.uk/dev/FiveMRCPisAwesomeLSDWPJob/4.jpg" target="_blank">**Vinewood with Vehicle Bays Filled**</a>
