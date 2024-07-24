@@ -19,7 +19,7 @@ CreateThread(function()
 	local jobped = CreateJobPed(jx, jy, jz)
 	local jobblip = CreateStartBlip(jx, jy)
     SendNUIMessage({resourcename = GetCurrentResourceName()})
-	--NOPIXEL CODE NEEDED HERE: USING EYE TO SEE THE PED AND LET THEM SIGN INTO JOB
+	--CODE NEEDED HERE: USING EYE TO SEE THE PED AND LET THEM SIGN INTO JOB
 	--THIS NEXT CODE IS IN PLACE OF THE PHONE/JOB FUNCTIONALITY
 	--------------------------------------------------
 	while true do
@@ -115,7 +115,7 @@ function Job(jx, jy, jz)
 			return false
 		end
 	end
-	--NOPIXEL CODE NEEDED HERE: GIVE KEYS OF VEHICLE TO PLAYER AND/OR RENTAL DOCUMENTS
+	--CODE NEEDED HERE: GIVE KEYS OF VEHICLE TO PLAYER AND/OR RENTAL DOCUMENTS
 
 	phonetext = "Drive to the Job Area"
 	local xmin, ymin, xmax, ymax, vertices, ispolygon, jobzheight = GetJobCoordDetails(job)
@@ -411,7 +411,7 @@ function Job(jx, jy, jz)
 	end
 	vehicle = DeleteVehicle(vehicle)
 
-	--NOPIXEL CODE NEEDED HERE: JOB COMPLETED
+	--CODE NEEDED HERE: JOB COMPLETED
 	phonetext = "Job Completed"
 	Wait(5000)
 	phonetext = false
@@ -696,7 +696,7 @@ end
 
 RegisterNUICallback("givesitem", function(data,cb)
 	print(data.givesitem, data.givesitemquantity)
-	--NOPIXEL CODE NEEDED HERE: GIVE INVENTORY ITEM
+	--CODE NEEDED HERE: GIVE INVENTORY ITEM
 	local itemtext = data.givesitem .. " x".. data.givesitemquantity
 	CreateThread(function()
 		while itemtext do
